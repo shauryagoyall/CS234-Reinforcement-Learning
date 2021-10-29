@@ -21,9 +21,3 @@ register(
     entry_point='gym.envs.toy_text.frozen_lake:FrozenLakeEnv',
     kwargs={'map_name': '4x4',
             'is_slippery': True})
-
-register(
-    id='Stochastic-8x8-FrozenLake-v0',
-    entry_point='gym.envs.toy_text.frozen_lake:FrozenLakeEnv',
-    kwargs={'map_name': '8x8',
-            'is_slippery': True})
