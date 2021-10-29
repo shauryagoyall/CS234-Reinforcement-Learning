@@ -135,7 +135,7 @@ def render_single(env, policy, max_steps=100):
   ob = env.reset()
   for t in range(max_steps):
     env.render()
-    time.sleep(0.55)
+    #time.sleep(0.55)
     a = policy[ob]
     ob, rew, done, _ = env.step(a)
     episode_reward += rew
